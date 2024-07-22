@@ -1,4 +1,7 @@
 {
+    "name": "farah-chatbot/chatbot",
+    "description": "Chatbot",
+    "license": "MIT",
     "require": {
         "orhanerday/open-ai": "^5.2",
         "vlucas/phpdotenv": "^5.6"
