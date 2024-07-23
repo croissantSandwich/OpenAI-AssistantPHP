@@ -9,11 +9,6 @@
   },
   "routes": [
     {
-      "src": "/controller.php",
-      "methods": ["POST"],
-      "dest": "controller.php"
-    },
-    {
       "src": "/(.*)",
       "dest": "index.html"
     }
