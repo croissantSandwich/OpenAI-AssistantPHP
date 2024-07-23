@@ -8,10 +8,6 @@
     {
       "src": "/(.*)",
       "dest": "index.html"
-    },
-    {
-      "src": "/controller.php",
-      "dest": "controller.php"
     }
   ]
 }
