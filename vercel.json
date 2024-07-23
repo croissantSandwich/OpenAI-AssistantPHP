@@ -11,7 +11,7 @@
     {
       "src": "/controller.php",
       "methods": ["GET", "POST"],
-      "dest": "/controller.php"
+      "dest": "controller.php"
     },
     {
       "src": "/(.*)",
