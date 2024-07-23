@@ -4,7 +4,7 @@ require 'api/threadAssistant.php';
 
 $controller = new OpenAIController();
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' || $_SERVER['REQUEST_METHOD'] === 'GET') {
     if (isset($_GET['action'])) {
         switch ($_GET['action']) {
             case 'post':
